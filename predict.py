@@ -5,13 +5,14 @@ import numpy as np
 def load_model():
     with open('model.pk','rb') as file:
         data=pickle.load(file)
+        
     return data
 data=load_model()
 regressor=data['model']
 def make_prediction(model,features):
     prediction=model.predict(features.reshape(1,-1))
     return prediction[0]
-
+#prediction page
 def prediction_page():
     OverallQual=st.slider('Overall material and finish quality',0,10)
     TotRmsAbvGrd=st.slider('Total rooms above grade (does not include bathrooms)',0,14)
