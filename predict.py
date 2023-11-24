@@ -1,7 +1,6 @@
 import streamlit as st
 import pickle
 import numpy as np
-import sklearn.metrics as metrics
 
 def load_model():
     with open('model.pk','rb') as file:
