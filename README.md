@@ -8,5 +8,5 @@ To find out what are the most important features for building the model<br>
 ![image](https://github.com/jamesbengi/Predicting-house-prices-in-Ames-Iowa/blob/master/asset2.PNG)
 
 # To run the App
-</li> Pip install -r requirements.txt
-</li> Streamlit run app.py
+</li> Pip install -r requirements.txt<br>
+</li> Streamlit run app.py<br>
